@@ -1,0 +1,9 @@
+[project]
+name = "aic-research"
+version = "0.1.0"
+description = "Research modules for probabilistic and quantum-inspired models"
+authors = [{ name="AIC Research Team" }]
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["."]
