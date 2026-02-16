@@ -9,7 +9,7 @@ impl TrustScore {
     }
 
     pub fn penalize(&mut self, amount: f64){
-        self.score = (self.score -)
+        self.score = (self.score - amount)
     }
 
     pub fn reward(&mut self, amount: f64)
